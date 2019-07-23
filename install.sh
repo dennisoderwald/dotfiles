@@ -22,6 +22,7 @@ chsh -s $(which zsh)
 
 # Install Laravel Valet Plus
 $HOME/.composer/vendor/bin/valet fix
+$HOME/.composer/vendor/bin/valet install
 
 # Install global NPM packages
 npm install --global yarn

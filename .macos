@@ -150,8 +150,8 @@ defaults write com.apple.dock minimize-to-application -bool true
 # the Dock to launch apps.
 defaults write com.apple.dock persistent-apps -array
 
-# Show only open applications in the Dock
-defaults write com.apple.dock static-only -bool true
+# Show not only open applications in the Dock
+defaults write com.apple.dock static-only -bool false
 
 # Group windows by application in Mission Control
 defaults write com.apple.dock expose-group-by-app -bool true
@@ -169,7 +169,7 @@ defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -float 0
 
 # Automatically hide and show the Dock
-defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock autohide -bool false
 
 # Hot corners
 # Possible values:
@@ -279,7 +279,7 @@ defaults write com.apple.ical "first minute of work hours" 540
 ###############################################################################
 
 # Custom DateFormat
-defaults write com.apple.menuextra.clock DateFormat "EEE MMM d  H:mm"
+defaults write com.apple.menuextra.clock DateFormat "H:mm:ss"
 
 ###############################################################################
 # Photos                                                                      #
@@ -293,8 +293,8 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 ###############################################################################
 
 for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
-    "Dock" "Finder" "Mail" "Messages" "Photos" "Safari" "SystemUIServer" \
-    "Terminal" "Tweetbot" "iCal"; do
+    "Dock" "Finder" "Messages" "Photos" "Safari" "SystemUIServer" \
+    "Terminal"  "iCal"; do
     killall "${app}" &> /dev/null
 done
 

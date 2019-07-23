@@ -33,21 +33,15 @@ brew 'redis'
 
 # Apps
 cask 'aerial'
-cask 'caffeine'
 cask 'dropbox'
 cask 'firefox'
 cask 'google-chrome'
 cask 'hyper'
-cask 'insomnia'
-cask 'java'
-cask 'mysqlworkbench'
 cask 'phpstorm'
 cask 'sequel-pro'
-cask 'skype'
 cask 'slack'
 cask 'sublime-text'
 cask 'tableplus'
-cask 'there'
 cask 'transmit'
 
 # Quicklook

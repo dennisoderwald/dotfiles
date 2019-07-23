@@ -22,6 +22,10 @@ brew 'tree' # List directories in a tree structure
 brew 'zlib' # Needed for Memcached
 brew 'zsh'
 brew 'zsh-completions'
+brew 'zsh-syntax-highlighting'
+brew 'zsh-autosuggestions'
+brew 'htop'
+brew 'youtube-dl'
 
 # Development
 brew 'valet-php@7.2'

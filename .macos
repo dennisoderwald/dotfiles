@@ -116,6 +116,9 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 # Show the ~/Library folder
 chflags nohidden $HOME/Library
 
+# Show the /Volumes folder
+sudo chflags nohidden /Volumes
+
 # Expand the following File Info panes:
 # “General”, “Open with”, and “Sharing & Permissions”
 defaults write com.apple.finder FXInfoPanesExpanded -dict \
@@ -162,8 +165,8 @@ defaults write com.apple.dock autohide-delay -float 0
 # Remove the animation when hiding/showing the Dock
 defaults write com.apple.dock autohide-time-modifier -float 0
 
-# Automatically hide and show the Dock
-defaults write com.apple.dock autohide -bool false
+# Don’t show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
 
 # Hot corners
 # Possible values:

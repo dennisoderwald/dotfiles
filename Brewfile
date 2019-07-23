@@ -4,7 +4,6 @@ tap 'caskroom/eid'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
-tap 'henkrehorst/php'
 
 # Binaries
 brew 'awscli'
@@ -30,7 +29,7 @@ brew 'rsync'
 brew 'yarn'
 
 # Development
-brew 'valet-php@7.2'
+brew 'php'
 brew 'composer'
 
 # Apps
@@ -44,8 +43,11 @@ cask 'sequel-pro'
 cask 'slack'
 cask 'sublime-text'
 cask 'tableplus'
-cask 'transmit'
 cask 'iterm2'
+cask 'transmit'
+cask 'tower'
+cask 'proxyman'
+cask 'dbngin'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -65,7 +67,6 @@ cask 'font-source-serif-pro'
 
 # Mac App Store
 mas '1Password', id: 1333542190
-mas 'Keynote', id: 409183694
 mas 'Spark', id: 1176895641
 mas 'The Unarchiver', id: 425424353
 mas 'WhatsApp', id: 1147396723

@@ -18,10 +18,9 @@ brew bundle
 chsh -s $(which zsh)
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer weprovide/valet-plus
+/usr/local/bin/composer global require laravel/installer laravel/valet
 
 # Install Laravel Valet Plus
-$HOME/.composer/vendor/bin/valet fix
 $HOME/.composer/vendor/bin/valet install
 
 # Create a Sites directory
@@ -31,6 +30,9 @@ mkdir $HOME/Sites
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+# Symlink for .zshrc
+ln -s $HOME/.dotfiles/path.zsh $HOME/.zshrc
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
-source .macos
+# source .macos

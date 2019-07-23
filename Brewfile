@@ -27,6 +27,7 @@ brew 'zsh-autosuggestions'
 brew 'htop'
 brew 'youtube-dl'
 brew 'rsync'
+brew 'yarn'
 
 # Development
 brew 'valet-php@7.2'

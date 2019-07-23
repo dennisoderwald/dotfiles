@@ -4,6 +4,7 @@ tap 'caskroom/eid'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
+tap 'henkrehorst/php'
 
 # Binaries
 brew 'awscli'
@@ -24,12 +25,8 @@ brew 'zsh'
 brew 'zsh-completions'
 
 # Development
-brew 'php'
-brew 'imagick'
-brew 'mysql'
-brew 'nginx'
-brew 'node'
-brew 'redis'
+brew 'valet-php@7.2'
+brew 'composer'
 
 # Apps
 cask 'aerial'
@@ -65,4 +62,8 @@ mas '1Password', id: 1333542190
 mas 'Keynote', id: 409183694
 mas 'Spark', id: 1176895641
 mas 'The Unarchiver', id: 425424353
-mas 'WhatsApp', id: 1147396723 
+mas 'WhatsApp', id: 1147396723
+mas 'Speedtest', id: 1153157709
+mas 'Bear', id: 1091189122
+mas 'CodeRunner 3', id: 955297617
+mas 'Moom', id: 419330170

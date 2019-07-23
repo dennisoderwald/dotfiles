@@ -21,7 +21,7 @@ chsh -s $(which zsh)
 /usr/local/bin/composer global require laravel/installer weprovide/valet-plus
 
 # Install Laravel Valet Plus
-$HOME/.composer/vendor/bin/valet install
+$HOME/.composer/vendor/bin/valet fix
 
 # Install global NPM packages
 npm install --global yarn
@@ -29,10 +29,6 @@ npm install --global yarn
 # Create a Sites directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
 mkdir $HOME/Sites
-
-# Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
-rm -rf $HOME/.zshrc
-ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg

@@ -26,6 +26,7 @@ brew 'zsh-syntax-highlighting'
 brew 'zsh-autosuggestions'
 brew 'htop'
 brew 'youtube-dl'
+brew 'rsync'
 
 # Development
 brew 'valet-php@7.2'
@@ -43,6 +44,7 @@ cask 'slack'
 cask 'sublime-text'
 cask 'tableplus'
 cask 'transmit'
+cask 'iterm2'
 
 # Quicklook
 cask 'qlcolorcode'

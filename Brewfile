@@ -56,13 +56,7 @@ cask '1password'
 cask '1password-cli'
 cask 'docker'
 cask 'fork'
-
-# Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-cask 'qlstephen'
+cask 'moneymoney'
 
 # Fonts
 cask 'font-lato'

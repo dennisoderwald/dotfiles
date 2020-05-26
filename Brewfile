@@ -55,6 +55,7 @@ cask 'spotify'
 cask '1password'
 cask '1password-cli'
 cask 'docker'
+cask 'fork'
 
 # Quicklook
 cask 'qlcolorcode'

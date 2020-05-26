@@ -34,7 +34,6 @@ brew 'composer'
 
 # Apps
 cask 'aerial'
-cask 'dropbox'
 cask 'firefox'
 cask 'google-chrome'
 cask 'hyper'
@@ -48,6 +47,14 @@ cask 'transmit'
 cask 'tower'
 cask 'proxyman'
 cask 'dbngin'
+cask 'tinkerwell'
+cask 'querious'
+cask 'missive'
+cask 'notion'
+cask 'spotify'
+cask '1password'
+cask '1password-cli'
+cask 'docker'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -66,11 +73,9 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas '1Password', id: 1333542190
 mas 'Spark', id: 1176895641
 mas 'The Unarchiver', id: 425424353
 mas 'WhatsApp', id: 1147396723
 mas 'Speedtest', id: 1153157709
 mas 'Bear', id: 1091189122
-mas 'CodeRunner 3', id: 955297617
 mas 'Moom', id: 419330170

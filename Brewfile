@@ -57,6 +57,7 @@ cask '1password-cli'
 cask 'docker'
 cask 'fork'
 cask 'moneymoney'
+cask 'shadow'
 
 # Fonts
 cask 'font-lato'
